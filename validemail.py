@@ -2,10 +2,10 @@ def fun(s):
     
     if ('@' not in s) or ('.' not in s) or (' ' in s):
         return False
-        if s.count('@')>1:
-                return False   
-        if s.count('.')>1:
-                return False
+    if s.count('@')>1:
+        return False   
+    if s.count('.')>1:
+        return False
 
     s=s.replace('@',' ')
 
