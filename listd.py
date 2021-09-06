@@ -10,3 +10,5 @@ if __name__ == '__main__':
             eval("l."+cmd)
         else:
             print(l)
+            print(l)
+            print(l)
