@@ -4,3 +4,4 @@ class OrderedCounter(Counter, OrderedDict):
 d = OrderedCounter(input() for i in range(int(input())))
 print(len(d))
 print(*d.values())
+print(*d.values())
